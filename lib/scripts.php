@@ -35,7 +35,7 @@ function sapling_scripts() {
   }
 
   wp_register_script('modernizr', get_template_directory_uri() . '/js/vendor/modernizr.min.js', false, null, false);
-  wp_register_script('sapling_main', get_template_directory_uri() . '/assets/js/main.js', false, null, true);
+  wp_register_script('sapling_main', get_template_directory_uri() . '/js/main.js', false, null, true);
   wp_enqueue_script('jquery');
   wp_enqueue_script('modernizr');
   wp_enqueue_script('sapling_main');

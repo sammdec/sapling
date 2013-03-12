@@ -50,9 +50,9 @@ add_action('admin_menu', 'sapling_theme_activation_options_add_page', 50);
 function sapling_get_default_theme_activation_options() {
   $default_theme_activation_options = array(
     'first_run'                       => true,
-    'create_front_page'               => false,
-    'change_permalink_structure'      => false,
-    'change_uploads_folder'           => false,
+    'create_front_page'               => true,
+    'change_permalink_structure'      => true,
+    'change_uploads_folder'           => true,
     'create_navigation_menus'         => false,
     'add_pages_to_primary_navigation' => false,
   );
@@ -81,45 +81,6 @@ function sapling_theme_activation_options_render_page() { ?>
       <input type="hidden" value="false" name="sapling_theme_activation_options[first_run]">
 
       <table class="form-table">
-
-        <tr valign="top"><th scope="row"><?php _e('Create static front page?', 'sapling'); ?></th>
-          <td>
-            <fieldset><legend class="screen-reader-text"><span><?php _e('Create static front page?', 'sapling'); ?></span></legend>
-              <select name="sapling_theme_activation_options[create_front_page]" id="create_front_page">
-                <option selected="selected" value="true"><?php echo _e('Yes', 'sapling'); ?></option>
-                <option value="false"><?php echo _e('No', 'sapling'); ?></option>
-              </select>
-              <br>
-              <small class="description"><?php printf(__('Create a page called Home and set it to be the static front page', 'sapling')); ?></small>
-            </fieldset>
-          </td>
-        </tr>
-
-        <tr valign="top"><th scope="row"><?php _e('Change permalink structure?', 'sapling'); ?></th>
-          <td>
-            <fieldset><legend class="screen-reader-text"><span><?php _e('Update permalink structure?', 'sapling'); ?></span></legend>
-              <select name="sapling_theme_activation_options[change_permalink_structure]" id="change_permalink_structure">
-                <option selected="selected" value="true"><?php echo _e('Yes', 'sapling'); ?></option>
-                <option value="false"><?php echo _e('No', 'sapling'); ?></option>
-              </select>
-              <br>
-              <small class="description"><?php printf(__('Change permalink structure to /&#37;postname&#37;/', 'sapling')); ?></small>
-            </fieldset>
-          </td>
-        </tr>
-
-        <tr valign="top"><th scope="row"><?php _e('Change uploads folder?', 'sapling'); ?></th>
-          <td>
-            <fieldset><legend class="screen-reader-text"><span><?php _e('Update uploads folder?', 'sapling'); ?></span></legend>
-              <select name="sapling_theme_activation_options[change_uploads_folder]" id="change_uploads_folder">
-                <option selected="selected" value="true"><?php echo _e('Yes', 'sapling'); ?></option>
-                <option value="false"><?php echo _e('No', 'sapling'); ?></option>
-              </select>
-              <br>
-              <small class="description"><?php printf(__('Change uploads folder to /assets/ instead of /wp-content/uploads/', 'sapling')); ?></small>
-            </fieldset>
-          </td>
-        </tr>
 
         <tr valign="top"><th scope="row"><?php _e('Create navigation menu?', 'sapling'); ?></th>
           <td>

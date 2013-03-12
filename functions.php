@@ -13,4 +13,4 @@ require_once locate_template('/lib/htaccess.php');        // HTML5 Boilerplate .
 require_once locate_template('/lib/scripts.php');         // Scripts and stylesheets
 require_once locate_template('/lib/custom.php');          // Custom functions
 
-// Do Not put any custom functions in here that what custom.php is for ^
+// Do not put any custom functions in here that what custom.php is for ^
