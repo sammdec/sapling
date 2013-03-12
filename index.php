@@ -3,7 +3,7 @@
   
     <div id="main" role="main">
       
-    	<?php get_template_part('loop', 'index'); ?>
+    	<?php get_template_part('loops/loop'); ?>
       
     </div><!-- #main -->
   
