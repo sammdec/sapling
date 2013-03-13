@@ -3,7 +3,7 @@
 
 Sapling is a WordPress starter theme heavily based on [Roots](http://www.rootstheme.com/) and the [HTML5 Boilerplate](http://html5boilerplate.com/)
 
-Sapling started off as an internal tool for quickly bootstrapping a WordPress theme with some good sensible defaults without any style, after much searching we found Roots which had awesome features but as it was integrated with Twitter Bootstrap  we found ourselves overriding a lot of the preset styles. After much stripping out and re-writing we came up with Sapling. It has gone through many iterations internally and we are now at a stage that we are happy enough with to let others have at it.
+Sapling started off as an internal tool/theme @[Benchmark Studios](http://www.benchmarkstudios.co.uk/) for quickly bootstrapping a WordPress theme with some good sensible defaults without any style, after much searching we found Roots which had awesome features but as it was integrated with Twitter Bootstrap  we found ourselves overriding a lot of the preset styles. After much stripping out and re-writing we came up with Sapling. It has gone through many iterations internally and we are now at a stage that we are happy enough with to let others have at it.
 
 Use it, break it, pull it, hack it.
 
@@ -34,7 +34,7 @@ This project is open for all and always will be. Therefore if you would like to 
 ## Project information
 
 - Source: [https://github.com/samjbmason/sapling](https://github.com/samjbmason/sapling)
-- Twitter: [@retlehs](https://twitter.com/samjbmason)
+- Twitter: [@samjbmason](https://twitter.com/samjbmason)
 - Contributors: [https://github.com/samjbmason/sapling/contributors](https://github.com/samjbmason/sapling/contributors)
 
 ## License
