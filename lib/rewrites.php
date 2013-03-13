@@ -14,9 +14,9 @@
 function sapling_add_rewrites($content) {
   global $wp_rewrite;
   $sapling_new_non_wp_rules = array(
-    'assets/css/(.*)'      => THEME_PATH . '/assets/css/$1',
-    'assets/js/(.*)'       => THEME_PATH . '/assets/js/$1',
-    'assets/img/(.*)'      => THEME_PATH . '/assets/img/$1',
+    'css/(.*)'      => THEME_PATH . '/css/$1',
+    'js/(.*)'       => THEME_PATH . '/js/$1',
+    'img/(.*)'      => THEME_PATH . '/img/$1',
     'plugins/(.*)'         => RELATIVE_PLUGIN_PATH . '/$1'
   );
   $wp_rewrite->non_wp_rules = array_merge($wp_rewrite->non_wp_rules, $sapling_new_non_wp_rules);
