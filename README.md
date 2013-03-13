@@ -1,5 +1,5 @@
 # Sapling Theme
-version: 3.0
+**version: 3.0**
 
 Sapling is a WordPress starter theme heavily based on [Roots](http://www.rootstheme.com/) and the [HTML5 Boilerplate](http://html5boilerplate.com/)
 
