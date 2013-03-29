@@ -40,3 +40,7 @@ Thumbs.db
 # Sass generated files #
 ######################
 *.sass-cache*
+
+# SFTP Config #
+######################
+sftp-config.json
