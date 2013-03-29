@@ -29,7 +29,7 @@ This project is open for all and always will be. Therefore if you would like to 
 
 1. If you find a bug or would like a new feature please raise it in  [Issues](https://github.com/samjbmason/sapling/issues) on GitHub
 2. If you have some neat new code you would like to add or some bug-fix code please send a pull-request.
-3. Any questions ro queries please feel free to drop me a message on twitter [@samjbmason](https://twitter.com/samjbmason)
+3. Any questions or queries please feel free to drop me a message on twitter [@samjbmason](https://twitter.com/samjbmason)
 
 ## Project information
 
